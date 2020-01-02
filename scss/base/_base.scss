@@ -21,8 +21,13 @@ a {
     width: 100%;
     height: 100%;
     color: $main-text;
-     &:hover, &:active {
+    transition: all 300ms;
+     &:hover {
          color: $main-text;
+     }
+
+     &:focus, &:active {
+        transform: scale(0.9);
      }
 }
 
