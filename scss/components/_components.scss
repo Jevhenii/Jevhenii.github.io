@@ -2,24 +2,29 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    height: 100vh;
     width: 100%;
 }
 
 .carousel-content {
     margin: 0 auto;
-    min-height: 100vh;
     display: flex;
+    min-height: 100vh;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+        &__main {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex: 1;
+            flex-direction: column;
+        }
 }
 
 .title-big {
     color: $main-text;
     font-size: $font-size-l;
     text-align: center;
-    margin-bottom: 60px;
+    margin: 30px 0;
 }
 
 .title-success {
@@ -50,9 +55,6 @@
         border-radius: 30px;
         margin: 10px 0;
         transition: all 0.4ms ease;
-          &:hover {
-            background-color: $main-red;
-          }
 
           a {
             display: flex;
@@ -85,14 +87,19 @@
         align-items: center;
         justify-content: center;
         text-align: center;
-        padding: 20px;
+        padding: 1rem;
         cursor: pointer;
          p {
-             margin-top: 15px;
+             margin: 0;
+             font-size: $font-size-card;
+             opacity: 0.7;
          }
           &:hover {
-              background: $main-red;
               box-shadow: inset 6px 6px 4px rgba(0, 0, 0, 0.3);
+          }
+
+          img {
+              opacity: 0.7;
           }
       }
 
@@ -103,12 +110,12 @@
       textarea {
         background: $option-bg;
         /* Primary Colour */
-        
         border: 1px solid $main-red;
         box-sizing: border-box;
         border-radius: 20px;
         color: $main-text;
         opacity: .7;
+        font-size: $font-size-card;
       }
 
       .form-control:focus {
@@ -124,9 +131,11 @@
 }
 
 .brand-footer {
-    position: absolute;
+    position: relative;
     right: 20px;
+    float: right;
     bottom: 20px;
+    text-align: right;
 }
 
 .card-text {
@@ -169,4 +178,8 @@
 
 .w-80 {
     width: 80%;
+}
+
+.w-20 {
+    width: 20%;
 }
