@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Gilroy-Light';
+    src: url('/assets/fonts/Gilroy-Light.eot'); /* IE9 Compat Modes */
+    src: url('/assets/fonts/Gilroy-Light.svg') format('svg'), /* Legacy iOS */
+         url('/assets/fonts/Gilroy-Light.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('/assets/fonts/Gilroy-ExtraBold.woff') format('woff'), /* Pretty Modern Browsers */
+         url('/assets/fonts/Gilroy-ExtraBold.woff2')  format('woff2');  /* Super Modern Browsers */
+}
+
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: url('/assets/fonts/Gilroy-Regular.eot'); 
+    src: url('/assets/fonts/Gilroy-Regular.svg') format('svg'), 
+         url('/assets/fonts/Gilroy-Regular.ttf') format('truetype'), 
+         url('/assets/fonts/Gilroy-Regular.woff') format('woff'), 
+         url('/assets/fonts/Gilroy-SemiBold.woff2')  format('woff2');
+}
+
+@font-face {
+    font-family: 'Gilroy-SemiBold';
+    src: url('/assets/fonts/Gilroy-SemiBold.eot'); 
+    src: url('/assets/fonts/Gilroy-SemiBold.svg') format('svg'), 
+         url('/assets/fonts/Gilroy-SemiBold.ttf') format('truetype'), 
+         url('/assets/fonts/Gilroy-SemiBold.woff') format('woff'), 
+         url('/assets/fonts/Gilroy-SemiBold.woff2')  format('woff2');
+}
+
+@font-face {
+    font-family: 'Gilroy-ExtraBold';
+    src: url('/assets/fonts/Gilroy-ExtraBold.eot'); 
+    src: url('/assets/fonts/Gilroy-ExtraBold.svg') format('svg'), 
+         url('/assets/fonts/Gilroy-ExtraBold.ttf') format('truetype'), 
+         url('/assets/fonts/Gilroy-ExtraBold.woff') format('woff'), 
+         url('/assets/fonts/Gilroy-ExtraBold.woff2')  format('woff2');
+}
