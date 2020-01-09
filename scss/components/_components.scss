@@ -161,6 +161,12 @@
     grid-template-columns: repeat(5, 1fr);
     gap: 40px;
     padding: 0 20px;
+    a {
+        transition: all 200ms;
+    }
+        a:hover:focus {
+            transform: scale(0.8);
+        }
 }
 
 @media screen and (max-width: 600px) {
